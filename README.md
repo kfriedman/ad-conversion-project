@@ -58,6 +58,7 @@ This project will be built by 4 engineers over a period of 6 weeks (24 engineer 
 - [app.js](app.js): Express (Node.js) service intended by deployed as an AWS Lambda to demo an implementation of the Ad Display Service and Conversion Service
 - [ads.js](js/ads.js): Demo client-side JavaScript used to interact with services
   - Requires jQuery but this will not a dependency for this project
+- The PoC is intended to test certain key assumptions and not be representative of final architecture and design
 
 ## Delivery Timeline
 
