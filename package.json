@@ -1,0 +1,24 @@
+{
+  "name": "ad-conversion",
+  "description": "Application to demonstrate an Ad Conversion mechanism",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon app.local.js",
+    "deploy": "./node_modules/.bin/node-lambda deploy -e development"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.3",
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "ejs": "2.6.1",
+    "express": "^4.15.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "node-lambda": "0.12.0"
+  }
+}
