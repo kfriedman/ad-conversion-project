@@ -51,7 +51,7 @@ This project will be built by 4 engineers over a period of 6 weeks (24 engineer 
 
 ### Deployment Environment
 
-- Edge caching (CloudFront): used to provide edge caching of static resources, capability for significant traffic volume, and fast response times
+- Edge caching (CloudFront): used to provide caching of static resources, capability for significant traffic volume, and fast response times
 
 ## PoC Implementation
 
