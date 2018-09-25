@@ -79,10 +79,11 @@ This project will be built by 4 engineers over a period of 6 weeks (24 engineer 
 ## Assumptions & Notes
 
 - Services may be further decomposed to aid in parallel development
-- Team (as advised by Engineering Manager) will decide final architecture and design as well as address security issues during Requirements & Architecture phase
+- Team (as advised by Engineering Manager) will decide final architecture and design during Requirements & Architecture phase
 - A streaming/event-driven architecure may also be implemented to provide access to data in real-time for other uses.
 - Best practices will be followed throughout project including:
   - *Testing:* Unit testing and integration testing will be implemented for all components
+  - *Security*: Security issues (API authentication, XSS, CSRF, SQL injection, etc.) will be carefully considered
   - *CI/CD:* All components will be deployed via continuous deployment with automated testing
   - *Logging:* A logging standard will be developed and adhered to
   - *Peer Review and other coding practices:* All code will be reviewed by multiple developers
