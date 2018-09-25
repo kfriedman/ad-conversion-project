@@ -8,7 +8,7 @@ The objective of this project is to provide a mechanism for *Publishers* to disp
 
 To accomplish this objective, server-side and client-side components will be created.
 
-This project will be built by 4 engineers over a period of 6 weeks (24 engineer weeks) with adequate time for testing, QA, and production readiness.
+This project will be built by 4 engineers over a period of 6 weeks (24 engineer weeks) in close cross-functional collaboration with other team members (Product, Project, UX) with adequate time for testing, QA, and production readiness.
 
 ### Demo
 
@@ -87,5 +87,5 @@ This project will be built by 4 engineers over a period of 6 weeks (24 engineer 
   - *CI/CD:* All components will be deployed via continuous deployment with automated testing
   - *Logging:* A logging standard will be developed and adhered to
   - *Peer Review and other coding practices:* All code will be reviewed by multiple developers
-  - *Documentation:* Sufficient documentation will be created; especially comprehensive READMEs
+  - *Documentation:* Sufficient documentation will be created; especially comprehensive READMEs and API (Swagger) documentation
   - *QA:* Performed throughout development process
