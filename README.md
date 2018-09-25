@@ -25,7 +25,7 @@ This project will be built by 4 engineers over a period of 6 weeks (24 engineer 
 - Serve relevant Ads to a Publisher website via a RESTful API
   - Example `GET` endpoint: `/publishers/[id]/ads`
 - Provide a mechanism (e.g. cookies) to track (for a determinate period of time) that an Ad was shown to a Client
-- An appropriate datastore (e.g. Relational Database Service) will be used to retrieve/store Ads
+- An appropriate datastore (e.g. NoSQL or Relational Database Service) will be used to retrieve/store Ads
 
 #### Conversion Service
 
@@ -34,12 +34,13 @@ This project will be built by 4 engineers over a period of 6 weeks (24 engineer 
 - Decodes mechanism (e.g. cookie) set by Ad Display service to determine if a relevant Ad was shown
 - Must not count the same conversion for an Ad from a Client more than once
 - Should provide the ability to associate a value (e.g. total sale amount) with a Conversion
-- An appropriate datastore (e.g. Relational Database Service) will be used to retrieve/store Conversions
+- An appropriate datastore (e.g. NoSQL or Relational Database Service) will be used to retrieve/store Conversions
 
 ### Deployment Environment
 
 - API Gateway: used to route requests to appropriate services, provide authentication (if necessary), and allow for caching
 - Serverless or Containers (ECS): used to provide the ability to scale services as necessary for high-volume traffic
+- Streams (Kinesis/Kafka): Data will also be published to streams to provide other consumers with real-time access to data 
 
 ### Client-Side
 
@@ -79,6 +80,7 @@ This project will be built by 4 engineers over a period of 6 weeks (24 engineer 
 
 - Services may be further decomposed to aid in parallel development
 - Team (as advised by Engineering Manager) will decide final architecture and design as well as address security issues during Requirements & Architecture phase
+- A streaming/event-driven architecure may also be implemented to provide access to data in real-time for other uses.
 - Best practices will be followed throughout project including:
   - *Testing:* Unit testing and integration testing will be implemented for all components
   - *CI/CD:* All components will be deployed via continuous deployment with automated testing
